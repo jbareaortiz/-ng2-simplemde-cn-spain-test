@@ -1,11 +1,11 @@
 {
-  "name": "ng2-simplemde",
+  "name": "ng2-simplemde-cn-spain",
   "description": "simplemde-markdown-editor with Angular",
   "repository": {
     "type": "git",
-    "url": "https://github.com/doxiaodong/ng2-simplemde"
+    "url": "https://github.com/condenast-spain/ng2-simplemde-cn-spain"
   },
-  "version": "2.0.2",
+  "version": "2.1.0",
   "license": "MIT",
   "main": "bundles/ng2-simplemde.umd.min.js",
   "module": "lib/index.js",
@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "@types/simplemde": "^1.11.7",
-    "simplemde": "^1.11.2"
+    "simplemde-cn-spain": "^1.12.0"
   },
   "peerDependencies": {
     "@angular/common": ">=5.0.0",

@@ -1,8 +1,3 @@
-[![Build Status](https://img.shields.io/travis/doxiaodong/ng2-simplemde.svg?style=flat-square)](https://travis-ci.org/doxiaodong/ng2-simplemde)
-[![Downloads](https://img.shields.io/npm/dt/ng2-simplemde.svg?style=flat-square)](https://www.npmjs.com/package/ng2-simplemde)
-[![Versions](https://img.shields.io/npm/v/ng2-simplemde.svg?style=flat-square)]()
-[![License](https://img.shields.io/npm/l/ng2-simplemde.svg?style=flat-square)]()
-
 # simplemde-markdown-editor with Angular
 
 # demo
@@ -43,7 +38,7 @@ export class AppModule { }
 
 # Style
 
-* normal, it use `import 'simplemde/dist/simplemde.min.css'`
+* normal, it use `import 'simplemde-cn-spain/dist/simplemde.min.css'`
 * you can use a cdn
 ```
 import { SimplemdeModule, SIMPLEMDE_CONFIG } from 'ng2-simplemde/no-style'
