@@ -1,4 +1,4 @@
-import 'simplemde/dist/simplemde.min.css'
+import 'simplemde-cn-spain/dist/simplemde.min.css'
 
 export * from './component'
 export * from './config'

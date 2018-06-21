@@ -17,7 +17,7 @@ import { CommonModule } from '@angular/common'
 import { FormsModule } from '@angular/forms'
 import { NgModelBase } from './utils'
 import { SIMPLEMDE_CONFIG } from './config'
-import * as SimpleMDE from 'simplemde'
+import * as SimpleMDE from 'simplemde-cn-spain'
 
 const SIMPLEMDE_CONTROL_VALUE_ACCESSOR: any = {
   provide: NG_VALUE_ACCESSOR,

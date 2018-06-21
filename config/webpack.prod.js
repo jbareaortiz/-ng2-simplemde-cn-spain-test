@@ -7,7 +7,8 @@ const commonConfig = require('./webpack.common')
 const ENV = 'prod'
 
 module.exports = webpackMerge(commonConfig, {
-  devtool: '#source-map',
+  // devtool: '#source-map',
+  devtool: false,
   output: {
     path: path.resolve(__dirname, '../docs'),
     publicPath: './',

@@ -5,7 +5,8 @@ const MinifyPlugin = require('babel-minify-webpack-plugin')
 const ENV = 'umd'
 
 module.exports = {
-  devtool: '#inline-source-map',
+  // devtool: '#inline-source-map',
+  devtool: false,
   entry: './src/index.ts',
   resolve: {
     // See: http://webpack.github.io/docs/configuration.html#resolve-extensions
