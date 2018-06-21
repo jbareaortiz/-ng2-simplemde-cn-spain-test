@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "@types/simplemde": "^1.11.7",
-    "simplemde-cn-spain": "^1.12.0",
+    "simplemde-cn-spain": "^1.12.1",
     "webpack-sources": "^1.1.0"
   },
   "peerDependencies": {
