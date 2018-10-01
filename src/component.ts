@@ -82,7 +82,8 @@ export class Simplemde extends NgModelBase implements AfterViewInit, OnDestroy {
   }
 
   constructor(
-    @Inject(SIMPLEMDE_CONFIG) private config
+    @Inject(SIMPLEMDE_CONFIG) private config,
+    private ngZone: NgZone
   ) {
     super()
   }
