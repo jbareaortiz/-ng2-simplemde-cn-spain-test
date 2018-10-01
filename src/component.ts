@@ -8,7 +8,8 @@ import {
   Input,
   OnDestroy,
   ModuleWithProviders,
-  Inject
+  Inject,
+  NgZone
 } from '@angular/core'
 import {
   NG_VALUE_ACCESSOR
@@ -61,7 +62,9 @@ export class Simplemde extends NgModelBase implements AfterViewInit, OnDestroy {
     const config = { ...this.config, ...this.options }
     config.element = this.textarea.nativeElement
 
-    this.simplemde = new SimpleMDE(config)
+    this.ngZone.runOutsideAngular(() => {
+        this.simplemde = new SimpleMDE(config)
+    })
 
     if (this.tmpValue) {
       this.simplemde.value(this.tmpValue)
@@ -78,7 +81,8 @@ export class Simplemde extends NgModelBase implements AfterViewInit, OnDestroy {
   }
 
   constructor(
-    @Inject(SIMPLEMDE_CONFIG) private config
+    @Inject(SIMPLEMDE_CONFIG) private config,
+    private ngZone: NgZone
   ) {
     super()
   }
