@@ -3,7 +3,7 @@
   "description": "simplemde-markdown-editor with Angular",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jordelca/ng2-simplemde-cn-spain"
+    "url": "https://github.com/condenast-spain/ng2-simplemde-cn-spain"
   },
   "version": "2.1.6",
   "license": "MIT",
