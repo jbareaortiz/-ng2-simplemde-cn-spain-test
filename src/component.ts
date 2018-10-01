@@ -8,7 +8,8 @@ import {
   Input,
   OnDestroy,
   ModuleWithProviders,
-  Inject
+  Inject,
+  NgZone
 } from '@angular/core'
 import {
   NG_VALUE_ACCESSOR
