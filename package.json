@@ -1,9 +1,9 @@
 {
-  "name": "ng2-simplemde-jordelca",
+  "name": "ng2-simplemde-cn-spain",
   "description": "simplemde-markdown-editor with Angular",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jordelca/ng2-simplemde-jordelca"
+    "url": "https://github.com/jordelca/ng2-simplemde-cn-spain"
   },
   "version": "2.1.6",
   "license": "MIT",
