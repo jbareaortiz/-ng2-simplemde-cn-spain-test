@@ -63,9 +63,8 @@ export class Simplemde extends NgModelBase implements AfterViewInit, OnDestroy {
     config.element = this.textarea.nativeElement
 
     this.ngZone.runOutsideAngular(() => {
-        this.simplemde = new SimpleMDE(config);
-    });
-    
+        this.simplemde = new SimpleMDE(config)
+    })
 
     if (this.tmpValue) {
       this.simplemde.value(this.tmpValue)
