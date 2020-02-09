@@ -1,9 +1,9 @@
 {
-  "name": "ng2-simplemde-cn-spain",
+  "name": "ng2-simplemde-cn-spain-test",
   "description": "simplemde-markdown-editor with Angular",
   "repository": {
     "type": "git",
-    "url": "https://github.com/condenast-spain/ng2-simplemde-cn-spain"
+    "url": "https://github.com/jbareaortiz/-ng2-simplemde-cn-spain-test.git"
   },
   "version": "2.1.6",
   "license": "MIT",
